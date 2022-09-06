@@ -1,0 +1,20 @@
+{
+	"name": "DestinationDataset_3yb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "u2u-syn-ws-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "RAW/BABS/Trip",
+				"fileSystem": "datalake"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
