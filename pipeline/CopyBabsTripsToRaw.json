@@ -56,8 +56,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Trip ID",
-									"type": "String"
+									"name": "TripID"
 								}
 							},
 							{
@@ -76,8 +75,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Start Date",
-									"type": "String"
+									"name": "StartDate"
 								}
 							},
 							{
@@ -86,8 +84,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Start Station",
-									"type": "String"
+									"name": "StartStation"
 								}
 							},
 							{
@@ -96,8 +93,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Start Terminal",
-									"type": "String"
+									"name": "StartTerminal"
 								}
 							},
 							{
@@ -106,8 +102,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "End Date",
-									"type": "String"
+									"name": "EndDate"
 								}
 							},
 							{
@@ -116,8 +111,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "End Station",
-									"type": "String"
+									"name": "EndStation"
 								}
 							},
 							{
@@ -126,8 +120,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "End Terminal",
-									"type": "String"
+									"name": "EndTerminal"
 								}
 							},
 							{
@@ -136,7 +129,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Bike Nbr"
+									"name": "BikeNbr"
 								}
 							},
 							{
@@ -145,8 +138,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Subscriber Type",
-									"type": "String"
+									"name": "SubscriberType"
 								}
 							},
 							{
@@ -155,8 +147,7 @@
 									"type": "String"
 								},
 								"sink": {
-									"name": "Zip Code",
-									"type": "String"
+									"name": "ZipCode"
 								}
 							}
 						]
