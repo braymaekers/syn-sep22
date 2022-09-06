@@ -46,7 +46,121 @@
 						}
 					},
 					"enableStaging": false,
-					"validateDataConsistency": false
+					"validateDataConsistency": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "Trip ID",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Trip ID",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Duration",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Duration",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Start Date",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Start Date",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Start Station",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Start Station",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Start Terminal",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Start Terminal",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "End Date",
+									"type": "String"
+								},
+								"sink": {
+									"name": "End Date",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "End Station",
+									"type": "String"
+								},
+								"sink": {
+									"name": "End Station",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "End Terminal",
+									"type": "String"
+								},
+								"sink": {
+									"name": "End Terminal",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bike #",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Bike Nbr"
+								}
+							},
+							{
+								"source": {
+									"name": "Subscriber Type",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Subscriber Type",
+									"type": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Zip Code",
+									"type": "String"
+								},
+								"sink": {
+									"name": "Zip Code",
+									"type": "String"
+								}
+							}
+						]
+					}
 				},
 				"inputs": [
 					{
